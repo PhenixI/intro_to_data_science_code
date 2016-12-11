@@ -48,4 +48,17 @@ def predictions(weather_turnstile):
     # Your implementation goes here. Feel free to write additional
     # helper functions
     # 
+    endog = weather_turnstile['ENTRIESn_hourly']
+    features = weather_turnstile[['rain','precipi','Hour','meantempi','fog','meanwindspdi','meanpressurei','meandewpti','maxtempi','maxpressurei','minpressurei','mindewpti','mintempi']]
+
+    dummy_units = pandas.get_dummies(dataframe['UNIT'], prefix='unit')
+    features = features.join(dummy_units)
+
+    exog = sm.add_constant(features)
+
+    model = sm.OLS(np.asarray(endog),np.asarray(exog))
+
+    results = model.fit()
+
+    prediction = model.predict(results.params,exog)
     return prediction

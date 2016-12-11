@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4dfbd98f-da73-47db-b3fa-e37ef7b8215b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mann_Whitney_U_test.py</StartupFile>
+    <StartupFile>linear regression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,11 +27,23 @@
     <Compile Include="calculate_r_square.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="compute_r_square.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Exploratory_Data_Analysis.py" />
     <Compile Include="Gradient_descent.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="linear regression.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Mann_Whitney_U_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="more_linear_regression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="plotting_residuals.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="welch_s_t_test.py">

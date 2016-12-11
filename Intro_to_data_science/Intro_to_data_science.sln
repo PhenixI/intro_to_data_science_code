@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lesson2_data_wrangling", ".
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "data_analysis", "..\data_analysis\data_analysis.pyproj", "{4DFBD98F-DA73-47DB-B3FA-E37EF7B8215B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "data_visualization", "..\data_visualization\data_visualization.pyproj", "{446B35AF-9FA0-4CEE-A01B-CC1C225021AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{AFEDCDE8-6E92-49C0-A2F3-C508D12F1AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DFBD98F-DA73-47DB-B3FA-E37EF7B8215B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DFBD98F-DA73-47DB-B3FA-E37EF7B8215B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446B35AF-9FA0-4CEE-A01B-CC1C225021AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446B35AF-9FA0-4CEE-A01B-CC1C225021AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
